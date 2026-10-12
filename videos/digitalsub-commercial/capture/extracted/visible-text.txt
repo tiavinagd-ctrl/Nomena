@@ -1,0 +1,373 @@
+# DIGITALSUBMG — PREMIUM CINEMATIC 3D BRAND COMMERCIAL
+
+**Production type:** High-end 3D motion design / Luxury SaaS commercial
+
+**Duration:** Exactly 50 seconds
+
+**Brand:** DigitalSubMG
+
+**Official website:** https://www.digitalsub.org/
+
+**Campaign tagline:** « Vos abonnements premium en un clic. »
+
+**Final delivery:** 4K UHD, 16:9, 24 FPS
+
+## 1. CREATIVE VISION
+
+Create a spectacular, sophisticated, visually addictive 50-second 3D commercial for DigitalSubMG, a digital subscription platform based in Madagascar.
+
+The advertisement must feel like a world-class product launch film produced by an elite international motion design studio.
+
+Visual inspiration: premium Apple-style product cinematography, Stripe-inspired SaaS animations, sophisticated 3D interface visualization, luxury technology advertising, and contemporary glassmorphism.
+
+The result must feel premium, credible, futuristic, elegant, and commercially persuasive.
+
+**Core message:** DigitalSubMG simplifies access to premium digital subscriptions, with convenient local payment in Malagasy Ariary.
+
+Build a continuous visual story following this sequence:
+
+**DISCOVER → EXPLORE → CHOOSE → PAY → ACTIVATE → GET SUPPORT → DIGITALSUBMG**
+
+Every scene must flow naturally into the next through deliberate, elegant visual transitions.
+
+## 2. MASTER VISUAL IDENTITY
+
+### Color and lighting
+
+Use a sophisticated palette inspired by the supplied official DigitalSubMG branding:
+
+- Rich royal-purple gradients and luminous violet highlights
+- Soft lavender backgrounds
+- Premium white and pearl-white surfaces
+- Subtle transparent glass materials
+- Controlled chrome and metallic accents
+- Soft contact shadows and realistic reflections
+
+Purple is the signature color throughout the film.
+
+Avoid excessive neon, oversaturation, dark gaming aesthetics, or childish cartoon environments.
+
+### Rendering
+
+Ultra-clean photorealistic 3D motion design with physically based rendering, ray-traced reflections, ambient occlusion, realistic refraction, premium material shaders, soft global illumination, cinematic depth of field, and beautiful studio lighting.
+
+Use balanced compositions, satisfying negative space, subtle atmospheric particles, and carefully designed visual hierarchy.
+
+### Camera direction
+
+Use sophisticated commercial cinematography:
+
+- Slow controlled dolly-in movements
+- Elegant orbital camera movements
+- Smooth cinematic push-ins
+- Precise macro close-ups
+- Subtle parallax depth
+- Natural easing and fluid camera acceleration
+- Seamless match cuts and object-morphing transitions
+
+No shaky cameras, chaotic zooms, abrupt cuts, or unnecessary camera rotations.
+
+### Brand consistency lock
+
+Use one consistent flagship smartphone design throughout the advertisement: a modern premium device with a graphite metallic frame, edge-to-edge glass display, rounded corners, and realistic screen reflections.
+
+Use the official DigitalSubMG logo supplied as a reference asset. Never recreate it with inaccurate typography.
+
+Keep all recurring objects, interface elements, purple gradients, materials, lighting direction, and visual proportions consistent between scenes.
+
+If a reference image is provided, treat it as the definitive visual source.
+
+## 3. CINEMATIC STORYBOARD — EXACTLY 50 SECONDS
+
+### SCENE 01 — THE DIGITAL UNIVERSE AWAKENS
+
+**Time: 00:00–00:05 | 5 seconds**
+
+Begin with a minimal pearl-white cinematic environment.
+
+A tiny glowing violet particle appears in the center of the frame. It slowly expands into a beautifully illuminated, translucent purple energy sphere.
+
+The camera gently pushes forward.
+
+The sphere releases a perfectly controlled ribbon of luminous particles, revealing a floating premium smartphone through an elegant light sweep.
+
+The smartphone rotates approximately 25 degrees, catching realistic reflections along its metallic edges.
+
+Subtle glass-like notification panels emerge around it, synchronized to delicate sound effects.
+
+The official DigitalSubMG logo materializes as a polished, luminous brand element.
+
+**On-screen typography:**
+
+« Tout votre univers numérique. »
+
+**Transition:** The purple light sphere passes through the smartphone screen, releasing several floating subscription cards into the next scene.
+
+### SCENE 02 — THE WORLD OF PREMIUM SUBSCRIPTIONS
+
+**Time: 00:05–00:13 | 8 seconds**
+
+Reveal a beautifully organized 3D ecosystem of premium digital services.
+
+The smartphone remains central while six elegant floating glass cards form a dynamic spatial arrangement around it.
+
+Feature these services from the DigitalSubMG catalog:
+
+Netflix — Spotify Premium — ChatGPT — Canva Pro — CapCut Pro — Prime Video.
+
+Each service is represented by an accurate, recognizable official logo inside its own premium floating card.
+
+Animate the cards one after another with spring-based easing, smooth rotation, subtle shadows, and controlled depth of field.
+
+A slow cinematic orbital movement reveals the dimensional composition.
+
+Introduce soft violet reflections that connect the separate subscription cards into a unified digital ecosystem.
+
+**On-screen typography:**
+
+« Streaming. IA. Création. Productivité. »
+
+**Transition:** The floating cards align into a beautiful grid, then transform seamlessly into the DigitalSubMG mobile product catalog.
+
+### SCENE 03 — ONE PLATFORM, SIMPLE EXPERIENCE
+
+**Time: 00:13–00:21 | 8 seconds**
+
+The camera transitions smoothly into a realistic, beautifully reconstructed DigitalSubMG mobile interface based on the supplied website screenshots.
+
+Show the smartphone vertically in a clean lavender environment.
+
+Display an elegant subscription catalog with recognizable service cards, category labels, subscription options, and prices in Malagasy Ariary.
+
+Demonstrate a simple three-step user journey:
+
+1. Browse available subscriptions.
+2. Select a desired service.
+3. Review the chosen subscription and its price.
+
+Use smooth scrolling, elegant card expansion, responsive button animations, and carefully timed micro-interactions.
+
+A subtle glowing cursor selects a subscription.
+
+The chosen card gently rises above the smartphone screen, becoming a sophisticated floating 3D object.
+
+**On-screen typography:**
+
+« Choisissez. Cliquez. C'est simple. »
+
+**Transition:** The selected subscription card transforms into a floating checkout interface.
+
+### SCENE 04 — LOCAL PAYMENT, BEAUTIFULLY SIMPLE
+
+**Time: 00:21–00:29 | 8 seconds**
+
+Reveal a luxurious glassmorphism payment interface in the center of the frame.
+
+Three elegant payment-method cards appear around the smartphone:
+
+**MVola — Orange Money — Airtel Money.**
+
+The payment cards hover with subtle synchronized motion.
+
+A polished violet light trail travels from the selected subscription to the payment confirmation interface.
+
+Show a symbolic payment validation animation: a glowing circular progress indicator completes its movement and transforms into a refined green-and-white checkmark.
+
+The visual should clearly communicate accessible local payment in Malagasy Ariary.
+
+No realistic bank-account numbers, sensitive financial information, invented bank interfaces, or fake payment receipts.
+
+**On-screen typography:**
+
+« Payez facilement en Ariary. »
+
+**Transition:** The payment confirmation checkmark emits a subtle purple pulse that travels directly into the selected subscription card.
+
+### SCENE 05 — YOUR PREMIUM EXPERIENCE IS READY
+
+**Time: 00:29–00:37 | 8 seconds**
+
+The selected subscription card floats in a refined white environment.
+
+A gentle wave of violet light travels along its borders.
+
+The card gains a luminous edge, creating the visual impression that the subscription is becoming active.
+
+A refined circular loading indicator completes one smooth rotation and transforms into a polished success symbol.
+
+Display a clean confirmation interface inspired by the platform's actual activation process.
+
+Use a brief, satisfying moment of stillness to make the completion feel trustworthy and important.
+
+The smartphone screen transitions into a beautiful confirmation state.
+
+No exaggerated speed claims, invented credentials, passwords, or simulated access to third-party accounts.
+
+**On-screen typography:**
+
+« Activation rapide après confirmation. »
+
+**Transition:** The violet confirmation glow expands into soft lavender particles, revealing the support character.
+
+### SCENE 06 — THE HUMAN SIDE OF DIGITALSUBMG
+
+**Time: 00:37–00:44 | 7 seconds**
+
+Introduce a charming, original DigitalSubMG 3D mascot.
+
+Character design:
+
+A small, premium-quality fluffy purple creature with rounded proportions, extremely soft realistic fur, expressive eyes, subtle eyebrows, tiny arms, and a warm, friendly personality.
+
+Its design must be polished and recognizable, never childish or exaggerated.
+
+The mascot appears beside the same flagship smartphone.
+
+It smiles naturally, makes a gentle welcoming gesture, then points toward a floating customer-support chat symbol.
+
+Animate small, believable movements:
+
+- Subtle breathing and gentle body movement
+- Natural eye blinking
+- Soft head tilt
+- Realistic fur response
+- Small, expressive hand gestures
+
+Floating conversation bubbles emerge in the surrounding space, suggesting accessible assistance and personalized customer service.
+
+Use warmer purple lighting for an inviting emotional atmosphere.
+
+**On-screen typography:**
+
+« Une équipe à votre écoute. »
+
+**Transition:** The mascot gently gestures toward the smartphone. A soft violet wave guides the camera into the final brand composition.
+
+### SCENE 07 — THE ULTIMATE BRAND REVEAL
+
+**Time: 00:44–00:50 | 6 seconds**
+
+Create an unforgettable final composition.
+
+The camera pulls back elegantly to reveal the flagship smartphone floating against a sophisticated lavender-to-white gradient background.
+
+Subscription cards move into a perfectly balanced arrangement around it.
+
+Subtle purple particles and refined light ribbons converge into the center of the frame.
+
+The official DigitalSubMG logo appears with an elegant cinematic reveal.
+
+A gentle light sweep travels across the logo, followed by a clean, satisfying branded sound.
+
+All surrounding elements settle into near-perfect stillness.
+
+Display the final message with clear typographic hierarchy:
+
+**DIGITALSUBMG**
+
+« Vos abonnements premium en un clic. »
+
+**digitalsub.org**
+
+Keep the final composition stable and readable until the last frame.
+
+Finish with a polished, premium fade-out.
+
+## 4. MOTION DESIGN LANGUAGE
+
+All motion should be intentionally choreographed.
+
+Use refined cinematic timing, seamless object transformations, elegant soft-body-inspired easing where appropriate, and polished spatial transitions.
+
+Object movements should feel physically believable even within a stylized, futuristic environment.
+
+Avoid random floating motion, excessive bouncing, chaotic particles, or unrelated visual effects.
+
+Use recurring purple luminous energy as a connecting visual motif throughout the advertisement.
+
+The entire 50-second film must feel like one unified commercial rather than seven independent AI-generated clips.
+
+## 5. AUDIO DIRECTION
+
+Create a custom-sounding premium electronic soundtrack featuring:
+
+- Modern ambient electronic textures
+- Soft synthesized pulses
+- Elegant rhythmic progression
+- Light cinematic bass
+- Subtle interface clicks
+- Soft atmospheric whooshes
+- Refined digital notification tones
+- One recognizable brand-identifying sonic signature
+
+Synchronize motion-design highlights with the soundtrack.
+
+The opening should feel intriguing, the middle energetic but sophisticated, and the ending uplifting and memorable.
+
+Avoid aggressive EDM, distorted bass, generic corporate jingles, or overwhelming sound effects.
+
+**No spoken narration is required.**
+
+The visual storytelling must remain completely understandable with the sound muted.
+
+## 6. TYPOGRAPHY AND LOGO ACCURACY
+
+Use a sophisticated contemporary sans-serif typography system.
+
+Keep on-screen copy minimal, correctly accented in French, and visually aligned with the official brand identity.
+
+No more than one main message per scene.
+
+Maintain generous margins and clear readability on mobile and desktop screens.
+
+Use original high-resolution brand assets whenever available.
+
+If the generation model cannot reproduce typography and third-party service logos reliably, generate clean animation plates with reserved space, then composite the exact text, official logo files, and service logos during post-production.
+
+Never generate visually distorted or misspelled brand names.
+
+Do not suggest official commercial partnerships or endorsements by the third-party services.
+
+## 7. STRICT NEGATIVE PROMPT
+
+Avoid:
+
+Low-quality CGI, generic templates, amateur motion graphics, oversaturated neon, gaming aesthetics, distorted UI, fake logos, misspelled French text, inconsistent fonts, unreadable captions, random service names, fabricated pricing, unrelated brand colors, changing smartphone models, duplicated phones, unstable geometry, flickering surfaces, inconsistent mascot anatomy, morphing faces, deformed eyes, unrealistic fur, excessive particles, abrupt camera movement, unnecessary transitions, chaotic compositions, harsh reflections, blown highlights, low-resolution textures, watermarks, and frame interpolation artifacts.
+
+Do not change the DigitalSubMG visual identity.
+
+Do not change the mascot's appearance after it is introduced.
+
+Do not invent services, promotions, guarantees, or payment methods.
+
+## 8. FINAL PRODUCTION REQUIREMENTS
+
+**Duration:** 50 seconds total
+
+**Format:** 16:9 landscape
+
+**Resolution:** 3840 × 2160
+
+**Frame rate:** 24 FPS
+
+**Rendering:** Cinematic premium 3D, physically based materials, high-quality reflections, global illumination
+
+**Brand:** Official DigitalSubMG logo and supplied visual references
+
+**Language:** French on-screen copy
+
+**Website CTA:** digitalsub.org
+
+**Overall standard:** International premium technology advertising campaign.
+
+Generate scenes as individual cinematic clips when necessary, using locked reference images and the previous scene's final frame as continuity references.
+
+Preserve the same flagship smartphone, color treatment, material library, environment style, and mascot design throughout.
+
+During final assembly, ensure smooth continuity, precise sound synchronization, consistent lighting, accurate branding, and an elegant final logo reveal.
+
+**FINAL CREATIVE OBJECTIVE:**
+
+Make DigitalSubMG feel like a trusted, modern, sophisticated digital brand that makes premium subscriptions accessible to customers in Madagascar.
+
+The final result must be immediately recognizable, visually memorable, and ready for a professional digital advertising campaign.

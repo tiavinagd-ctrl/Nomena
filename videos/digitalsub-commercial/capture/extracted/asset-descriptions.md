@@ -1,0 +1,1 @@
+No website assets captured. Source: user-supplied detailed production brief. Original generated purple mascot, procedural Three.js graphite smartphone. Service marks sourced from Simple Icons. DigitalSubMG logo supplied later in chat; prepared as a landscape blue-background PNG and integrated in the phone, corner badge, and final scene. No prices supplied or invented.

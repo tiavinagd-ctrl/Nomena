@@ -1,0 +1,72 @@
+[
+  {
+    "path": "assets/RoomEnvironment.js",
+    "bytes": 4899,
+    "sha256": "c20f0b4677f6128a138d7152b85cbef9091f4f45cdfa05adca04d40c1697c7ae"
+  },
+  {
+    "path": "assets/mascot.png",
+    "bytes": 2043328,
+    "sha256": "04262e3c25245fd8debb597edb7af729eb5ba37d82ebb9ff3daa20aa1e649683"
+  },
+  {
+    "path": "assets/logo-officiel.png",
+    "bytes": 1273965,
+    "sha256": "a0359b02ca13fc613fd5d19c3f86ad0e34ff1270a31370d71227d4b67dcf3a2c"
+  },
+  {
+    "path": "assets/primevideo.svg",
+    "bytes": 5746,
+    "sha256": "3fd296b7ddc018376b22cadef22a67ada70c7d4648fd6c3c0701a2c3aa9b1730"
+  },
+  {
+    "path": "assets/three.module.js",
+    "bytes": 626071,
+    "sha256": "1bb0b770bac5da2b59b21aa5fff4c547eeb864d4e408e4c36fbc6ced1dce0e9e"
+  },
+  {
+    "path": "assets/gsap.min.js",
+    "bytes": 72779,
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "path": "assets/canva.svg",
+    "bytes": 2771,
+    "sha256": "d3734c68a7effeb11fcbd8d1ba292cb7fb27cc53347571f6413a0eba674e66a2"
+  },
+  {
+    "path": "assets/Inter.ttf",
+    "bytes": 876576,
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+  },
+  {
+    "path": "assets/three.core.js",
+    "bytes": 1405971,
+    "sha256": "03fb6e9fa08628385a9096948593251ae473239c7039496d7c280cba73d84631"
+  },
+  {
+    "path": "assets/spotify.svg",
+    "bytes": 712,
+    "sha256": "b25ed984e9512b141c7a4264392948a119864c062a89f4034ff1dca1dc65cad4"
+  },
+  {
+    "path": "assets/netflix.svg",
+    "bytes": 350,
+    "sha256": "5c82ab5ed6f08477b25d6dd2aa430a423e0d84adafa9be8e24ca08bd723e0e95"
+  },
+  {
+    "path": "assets/score.wav",
+    "bytes": 9600078,
+    "sha256": "10a2527d8c22d44a846707ed6510eaf18ee2afd1fa11a833e579a9a49b734a34"
+  },
+  {
+    "path": "assets/openai.svg",
+    "bytes": 1585,
+    "sha256": "a8bae4b4f9561295cfb4d7a619ca837b1e41b6a6a634ed29b12bdee85b804bd6"
+  },
+  {
+    "path": "assets/capcut.svg",
+    "bytes": 529,
+    "sha256": "1673e8216af7746473471a277e4f640282e0d75bb886832b1634a3e4ffe09c45"
+  }
+]

@@ -1,0 +1,392 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 14,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "duplicate_media_discovery_risk",
+        "severity": "warning",
+        "message": "Detected 2 matching img entries with the same source/start/duration.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Avoid duplicated media nodes that can be discovered twice during compilation."
+      },
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "Track 3 has 7 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"ground\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#ground",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"ground\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"brand-finale-ground\"> is a timeline element that contains nested <div id=\"blue-finale\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#brand-finale-ground",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"brand-finale-ground\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"world\"> is a timeline element that contains nested <canvas id=\"three-stage\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#world",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"world\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"brand-chrome\"> is a timeline element that contains nested <div id=\"chrome-inner\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#brand-chrome",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"brand-chrome\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene01\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene01",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene01\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene02\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene02",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene02\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene03\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene03",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene03\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene04\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene04",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene04\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene05\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene05",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene05\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene06\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene06",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene06\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<section id=\"scene07\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#scene07",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <section id=\"scene07\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      },
+      {
+        "code": "nested_structure_needs_subcomposition",
+        "severity": "warning",
+        "message": "<div id=\"ending\"> is a timeline element that contains nested <div id=\"outro-veil\">. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+        "selector": "#ending",
+        "dataAttributes": {},
+        "sourceFile": "/workspace/Nomena/videos/digitalsub-commercial/index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move <div id=\"ending\"> and its contents into a sub-composition file and mount it with data-composition-src."
+      }
+    ],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 4,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x296c001d9000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-o529",
+          "data-composition-id": "digitalsub",
+          "data-start": "0",
+          "data-duration": "50",
+          "data-width": "3840",
+          "data-height": "2160"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 3840,
+          "height": 2160
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:46235/"
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x296c001d9000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-o529",
+          "data-composition-id": "digitalsub",
+          "data-start": "0",
+          "data-duration": "50",
+          "data-width": "3840",
+          "data-height": "2160"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 3840,
+          "height": 2160
+        },
+        "time": 0,
+        "url": "http://127.0.0.1:46235/"
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x296c001d9000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-o529",
+          "data-composition-id": "digitalsub",
+          "data-start": "0",
+          "data-duration": "50",
+          "data-width": "3840",
+          "data-height": "2160"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 3840,
+          "height": 2160
+        },
+        "time": 3,
+        "url": "http://127.0.0.1:46235/"
+      },
+      {
+        "code": "console_warning",
+        "severity": "warning",
+        "message": "[.WebGL-0x296c001d9000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-hf-id": "hf-o529",
+          "data-composition-id": "digitalsub",
+          "data-start": "0",
+          "data-duration": "50",
+          "data-width": "3840",
+          "data-height": "2160"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 3840,
+          "height": 2160
+        },
+        "time": 3,
+        "url": "http://127.0.0.1:46235/"
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 50,
+    "samples": [
+      3,
+      47
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      3,
+      47
+    ],
+    "checked": 15,
+    "passed": 15
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.149",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,6 @@
+renders/*
+!renders/DigitalSubMG-videos.zip
+.hyperframes/
+.media/
+node_modules/
+__pycache__/
