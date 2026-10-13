@@ -1,0 +1,8 @@
+node_modules/
+renders/*
+!renders/Tiavina-Nomena-animatique.mp4
+!renders/Tiavina-Nomena-sources.zip
+!renders/Tiavina-Nomena-30s-Vertical.mp4
+!renders/Tiavina-Nomena-livraison.zip
+renders.log
+__pycache__/

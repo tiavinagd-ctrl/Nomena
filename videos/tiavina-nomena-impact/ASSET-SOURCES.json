@@ -1,0 +1,22 @@
+{
+  "portrait": {
+    "path": "public/portrait-cutout.png",
+    "source": "Modification de tenue demandée par le client ; image générée à partir de la quatrième référence du message.",
+    "limitations": "Adaptation générée ; aucune garantie de conservation pixel pour pixel du visage."
+  },
+  "voice": {
+    "path": "public/voice-original.mp3",
+    "source": "Fichier ElevenLabs fourni par le client",
+    "duration_seconds": 15.804082,
+    "edit_status": "Placement proposé par détection des silences et ordre du script ; vérification sémantique à l’écoute non automatisée."
+  },
+  "music": {
+    "path": "public/mix.wav",
+    "source": "Composition procédurale originale + voix client",
+    "bpm": 128
+  },
+  "references": {
+    "source": "Images visibles dans le message client",
+    "reuse": "Aucun logo ni photographie des modèles publicitaires de référence dans le montage."
+  }
+}

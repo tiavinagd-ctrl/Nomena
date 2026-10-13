@@ -1,0 +1,8 @@
+{
+  "detected_non_silent_segments": 12,
+  "fully_retained_segments": 12,
+  "overlapping_timeline_segments": 0,
+  "source_threshold_db": -35,
+  "minimum_silence_seconds": 0.18,
+  "semantic_transcription_performed": false
+}

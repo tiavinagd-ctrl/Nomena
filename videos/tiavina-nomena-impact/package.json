@@ -1,0 +1,22 @@
+{
+  "name": "tiavina-nomena-impact",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts --browser-executable=/usr/bin/chromium",
+    "check": "tsc --noEmit",
+    "render:preview": "remotion render src/index.ts ImpactPreview renders/Tiavina-Nomena-animatique.mp4 --browser-executable=/usr/bin/chromium --concurrency=2 --codec=h264 --crf=18",
+    "render:final": "node scripts/render-final.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/google-fonts": "4.0.535",
+    "remotion": "4.0.535",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "typescript": "5.9.3"
+  }
+}

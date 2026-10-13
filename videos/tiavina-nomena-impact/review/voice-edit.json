@@ -1,0 +1,78 @@
+{
+  "status": "premontage fondé sur les silences ; texte non transcrit automatiquement",
+  "source_duration": 15.804083333333333,
+  "segments": [
+    {
+      "expected_text": "Tout commence par une idée.",
+      "source_start": 0,
+      "source_end": 1.56,
+      "timeline_start": 0.35
+    },
+    {
+      "expected_text": "Une vision qui sort du cadre.",
+      "source_start": 2.04,
+      "source_end": 3.91,
+      "timeline_start": 3.32
+    },
+    {
+      "expected_text": "Tiavina Nomena.",
+      "source_start": 3.99,
+      "source_end": 4.95,
+      "timeline_start": 7.4
+    },
+    {
+      "expected_text": "Graphisme.",
+      "source_start": 5.06,
+      "source_end": 5.94,
+      "timeline_start": 11.1
+    },
+    {
+      "expected_text": "Vidéo.",
+      "source_start": 6.05,
+      "source_end": 6.79,
+      "timeline_start": 12.42
+    },
+    {
+      "expected_text": "Motion design.",
+      "source_start": 6.87,
+      "source_end": 8.03,
+      "timeline_start": 13.78
+    },
+    {
+      "expected_text": "Des idées qui prennent vie.",
+      "source_start": 8.07,
+      "source_end": 9.77,
+      "timeline_start": 15.75
+    },
+    {
+      "expected_text": "Du rythme.",
+      "source_start": 9.82,
+      "source_end": 10.77,
+      "timeline_start": 20.2
+    },
+    {
+      "expected_text": "De l’audace.",
+      "source_start": 10.8,
+      "source_end": 11.84,
+      "timeline_start": 21.8
+    },
+    {
+      "expected_text": "De l’impact.",
+      "source_start": 11.88,
+      "source_end": 13.0,
+      "timeline_start": 23.55
+    },
+    {
+      "expected_text": "Tiavina Nomena.",
+      "source_start": 13.03,
+      "source_end": 13.97,
+      "timeline_start": 25.75
+    },
+    {
+      "expected_text": "Créer avec impact.",
+      "source_start": 14.01,
+      "source_end": 15.7,
+      "timeline_start": 27.35
+    }
+  ]
+}
