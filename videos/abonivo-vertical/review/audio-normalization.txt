@@ -1,0 +1,29 @@
+[aist#0:0/pcm_s16le @ 0x55bdf7f39540] Guessed Channel Layout: stereo
+Input #0, wav, from '/workspace/Nomena/videos/abonivo-vertical/public/mix.pre.wav':
+  Duration: 00:00:30.00, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to '/workspace/Nomena/videos/abonivo-vertical/public/mix.wav':
+  Metadata:
+    ISFT            : Lavf61.7.103
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
+      Metadata:
+        encoder         : Lavc61.19.101 pcm_s16le
+size=    3072KiB time=00:00:16.59 bitrate=1516.0kbits/s speed=33.2x    
+[Parsed_loudnorm_0 @ 0x7fe778002740] 
+{
+	"input_i" : "-21.58",
+	"input_tp" : "-3.43",
+	"input_lra" : "5.30",
+	"input_thresh" : "-32.05",
+	"output_i" : "-15.83",
+	"output_tp" : "-1.00",
+	"output_lra" : "4.70",
+	"output_thresh" : "-26.20",
+	"normalization_type" : "dynamic",
+	"target_offset" : "-0.17"
+}
+[out#0/wav @ 0x55bdf7f39700] video:0KiB audio:5625KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.001354%
+size=    5625KiB time=00:00:30.00 bitrate=1536.0kbits/s speed=33.4x    

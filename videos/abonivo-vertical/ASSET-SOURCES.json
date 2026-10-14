@@ -1,0 +1,16 @@
+{
+  "voice": {
+    "file": "public/voice-original.mp3",
+    "original_filename": "ElevenLabs_2026-10-14T23_04_02_Audrey - Energetic Commercial_pvc_sp100_s50_sb75_v4.mp3",
+    "provenance": "Uploaded by the user. Explicitly selected in the clarification reply."
+  },
+  "official_logo": {
+    "status": "Required file missing. Two inline images are visible in chat but cannot be read as original binary files by the renderer.",
+    "required_path": "public/logo-officiel.png",
+    "regenerated": false
+  },
+  "music_and_sfx": "Original procedural synthesis in scripts/prepare_audio.py; 120 BPM.",
+  "devices_and_interfaces": "Original procedural Three.js models and illustrative canvas interfaces in src/stage.js. No third-party brand partnerships depicted.",
+  "font": "Inter, OFL. License in public/Inter-OFL.txt.",
+  "threejs": "Vendored distribution from the existing DigitalSub project. MIT license in src/lib/LICENSE-three.txt."
+}

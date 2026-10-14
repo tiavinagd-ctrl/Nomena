@@ -1,0 +1,7 @@
+node_modules
+.venv/
+renders/*
+!renders/ABONIVO-30s-apercu.mp4
+!renders/ABONIVO-livraison.zip
+*.log
+__pycache__/

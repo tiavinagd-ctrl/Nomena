@@ -1,0 +1,17 @@
+{
+  "file": "ABONIVO-30s-apercu.mp4",
+  "bytes": 7247083,
+  "sha256": "a55a44664b9aec48f3fa34cab109c298d874a657a5ec3b8f8943ed59011a0358",
+  "width": 1080,
+  "height": 1920,
+  "frames": 900,
+  "fps": "30/1",
+  "duration": "30.000000",
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "duration": "30.000000"
+  },
+  "full_decode": "passed",
+  "status": "preview awaiting original logo"
+}
