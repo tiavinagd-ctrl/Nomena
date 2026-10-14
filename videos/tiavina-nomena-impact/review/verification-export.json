@@ -34,7 +34,7 @@
       "start_time": "0.000000",
       "duration_ts": 460800,
       "duration": "30.000000",
-      "bit_rate": "3716156",
+      "bit_rate": "4424082",
       "bits_per_raw_sample": "8",
       "nb_frames": "900",
       "extradata_size": 51,
@@ -125,7 +125,7 @@
     }
   ],
   "format": {
-    "filename": "/workspace/Nomena/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-30s-Vertical.mp4",
+    "filename": "/workspace/Nomena/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-V2-30s-Vertical.mp4",
     "nb_streams": 2,
     "nb_programs": 0,
     "nb_stream_groups": 0,
@@ -133,8 +133,8 @@
     "format_long_name": "QuickTime / MOV",
     "start_time": "0.000000",
     "duration": "30.000000",
-    "size": "14718178",
-    "bit_rate": "3924847",
+    "size": "17372980",
+    "bit_rate": "4632794",
     "probe_score": 100,
     "tags": {
       "major_brand": "isom",

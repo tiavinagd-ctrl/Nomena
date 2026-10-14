@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {AbsoluteFill, Audio, Img, cancelRender, continueRender, delayRender, staticFile, useCurrentFrame} from 'remotion';
+import {CreativeContent, SoftwareBadge} from './CreativeStudio';
 
 const BLUE='#1246ff', WHITE='#f4f5f1', INK='#101217';
 const cuts=[0,90,210,330,450,600,750,900];
@@ -56,6 +57,7 @@ export const Film:React.FC<{preview:boolean}>=({preview})=>{
   const idea=Math.min(2,Math.floor(local/50));
   const impact=Math.min(2,Math.floor(local/50));
   const light=s===1||(s===3&&skill===1)||s===5;
+  const portraitScene=s===0||s===2||s===6;
   const dark=s===0||s===4||(s===3&&skill===2);
   const bg=light?WHITE:dark?'#03091e':BLUE;
   const fg=light?INK:WHITE;
@@ -65,7 +67,7 @@ export const Film:React.FC<{preview:boolean}>=({preview})=>{
   if(s===5){pose.scale=[1.18,.93,1.45][impact];pose.x=[75,-40,15][impact];}
   const drift=Math.sin(p*Math.PI)*22;
   const scale=pose.scale*(s===6?lerp(1.04,1,ease(local/95)):lerp(1,1.025,p));
-  const tag=['THE INTRO','THE VISION','THE NAME','THE SKILLS','THE IDEAS','THE IMPACT','THE SIGNATURE'][s];
+  const tag=['THE INTRO','THE WORKSTATION','THE NAME','THE TOOLS','THE PROCESS','THE PROJECTS','THE SIGNATURE'][s];
   const transition=ease((local-(cuts[s+1]-cuts[s]-6))/6);
   const nextLight=s===0||s===4||(s===2);
   return <AbsoluteFill style={{background:bg,overflow:'hidden',fontFamily:'Inter'}}>
@@ -85,10 +87,9 @@ export const Film:React.FC<{preview:boolean}>=({preview})=>{
       {s===5&&impact!==1&&<Giant text={words} x={-60} y={440} size={impact===2?440:380} color={INK} enter={local%50} rotate={-7}/>}
       {s===5&&impact===1&&<><Giant text="CREA" x={80} y={290} size={365} color={INK} enter={local%50} rotate={0}/><Giant text="TIVITY" x={-50} y={630} size={365} color={INK} enter={(local%50)-3} rotate={0}/></>}
     </div>
-    <Subject preview={preview} x={pose.x+drift*.55} y={pose.y} scale={scale} dark={dark}/>
-    {s===3&&skill===2&&<div style={{position:'absolute',inset:0,clipPath:'inset(62% 0 0 0)'}}><Arc word="MOTION" t={local%40} color={WHITE} front/></div>}
-    {(s===2||s===4)&&<div style={{position:'absolute',left:730-drift,top:1070,fontFamily:'Anton',fontSize:530,color:'transparent',WebkitTextStroke:`2px ${WHITE}99`,transform:'rotate(-9deg)',opacity:s===2?.3:.17}}>N</div>}
-    {light&&<div style={{position:'absolute',left:0,right:0,top:1280,bottom:0,background:'linear-gradient(to bottom, rgba(244,245,241,0), rgba(244,245,241,.96) 22%, #f4f5f1 100%)'}}/>}
+    {portraitScene?<Subject preview={preview} x={pose.x+drift*.55} y={pose.y} scale={scale} dark={dark}/>:<CreativeContent scene={s} local={local}/>}
+    {s===2&&<div style={{position:'absolute',left:730-drift,top:1070,fontFamily:'Anton',fontSize:530,color:'transparent',WebkitTextStroke:`2px ${WHITE}99`,transform:'rotate(-9deg)',opacity:.3}}>N</div>}
+    {s===6&&<div style={{position:'absolute',left:80,top:1240,display:'flex',gap:25,opacity:ease((local-12)/12),background:'#061331dd',border:'1px solid #ffffff30',padding:'14px 20px',borderRadius:12}}><SoftwareBadge kind="blender"/><SoftwareBadge kind="resolve"/></div>}
     <div style={{position:'absolute',left:80,right:110,top:180,display:'flex',alignItems:'center',justifyContent:'space-between',fontSize:22,fontWeight:650,letterSpacing:4,color:fg}}>
       <span style={{display:'inline-block',width:56,height:5,background:fg,marginRight:25}}/><span style={{flex:1}}>TIAVINA NOMENA</span><span style={{opacity:.7}}>0{s+1}</span>
     </div>

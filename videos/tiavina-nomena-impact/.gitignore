@@ -6,3 +6,7 @@ renders/*
 !renders/Tiavina-Nomena-livraison.zip
 renders.log
 __pycache__/
+
+!renders/Tiavina-Nomena-V2-30s-Vertical.mp4
+!renders/Tiavina-Nomena-V2-sources.zip
+!renders/Tiavina-Nomena-V2-livraison.zip

@@ -18,5 +18,12 @@
   "references": {
     "source": "Images visibles dans le message client",
     "reuse": "Aucun logo ni photographie des modèles publicitaires de référence dans le montage."
+  },
+  "v2_projects": {
+    "product": "Image originale générée : casque audio fictif sans marque sur fond bleu.",
+    "landscape": "Image originale générée : côte rocheuse et route au lever du soleil.",
+    "interfaces": "Reconstitutions graphiques animées de Blender et DaVinci Resolve, logiciels explicitement choisis par le client.",
+    "pc": "Formes et clavier construits en CSS/SVG, animés en perspective.",
+    "geometry": "Tore paramétrique calculé dans src/CreativeStudio.tsx ; projection 3D SVG."
   }
 }

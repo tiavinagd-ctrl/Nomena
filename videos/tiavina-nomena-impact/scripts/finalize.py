@@ -5,7 +5,7 @@ import subprocess
 import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
-movie=ROOT/'renders/Tiavina-Nomena-30s-Vertical.mp4'
+movie=ROOT/'renders/Tiavina-Nomena-V2-30s-Vertical.mp4'
 def run(*args):
  return subprocess.run(args,cwd=ROOT,capture_output=True,text=True,check=True)
 meta=json.loads(run('ffprobe','-v','error','-show_streams','-show_format','-of','json',str(movie)).stdout)
@@ -21,16 +21,16 @@ assert not decode.stderr.strip(),decode.stderr
 meta['verification']={'full_decode_errors':0,'frames_expected':900,'typescript':'passed'}
 (ROOT/'review/verification-export.json').write_text(json.dumps(meta,indent=2,ensure_ascii=False))
 print('Export verified: 900 frames, 1080x1920, 30 fps, H.264, stereo AAC, no decode errors.',flush=True)
-pick='+'.join(f'eq(n,{round(t*30)})' for t in [1.6,4.6,8.7,14.3,17.3,24.1,28.5])
-run('ffmpeg','-v','error','-y','-i',str(movie),'-vf',f"select='{pick}',scale=270:480,tile=4x2:nb_frames=7:padding=10:margin=10:color=0x101217",'-frames:v','1','-q:v','2','review/planche-film.jpg')
+pick='+'.join(f'eq(n,{round(t*30)})' for t in [1.6,4.8,8.7,11.7,12.8,14.3,17.3,19.2,20.8,22.4,24.1,28.5])
+run('ffmpeg','-v','error','-y','-i',str(movie),'-vf',f"select='{pick}',scale=270:480,tile=4x3:nb_frames=12:padding=10:margin=10:color=0x101217",'-frames:v','1','-q:v','2','review/planche-film.jpg')
 run('ffmpeg','-v','error','-y','-ss','28.5','-i',str(movie),'-frames:v','1','review/affiche.png')
-with zipfile.ZipFile(ROOT/'renders/Tiavina-Nomena-sources.zip','w',zipfile.ZIP_DEFLATED,compresslevel=5) as z:
+with zipfile.ZipFile(ROOT/'renders/Tiavina-Nomena-V2-sources.zip','w',zipfile.ZIP_DEFLATED,compresslevel=5) as z:
  for p in sorted(ROOT.rglob('*')):
   relative=p.relative_to(ROOT)
   if not p.is_file() or any(part in {'node_modules','renders','.git','__pycache__'} for part in relative.parts) or p.name=='renders.log':continue
   z.write(p,'Tiavina-Nomena/'+relative.as_posix())
 print('Review contact sheet, poster, and source ZIP ready.',flush=True)
-with zipfile.ZipFile(ROOT/'renders/Tiavina-Nomena-livraison.zip','w',zipfile.ZIP_STORED) as z:
- for path,name in [(movie,movie.name),(ROOT/'STORYBOARD.md','STORYBOARD.md'),(ROOT/'renders/Tiavina-Nomena-sources.zip','Tiavina-Nomena-sources.zip'),(ROOT/'review/affiche.png','Affiche.png')]:
+with zipfile.ZipFile(ROOT/'renders/Tiavina-Nomena-V2-livraison.zip','w',zipfile.ZIP_STORED) as z:
+ for path,name in [(movie,movie.name),(ROOT/'STORYBOARD.md','STORYBOARD.md'),(ROOT/'renders/Tiavina-Nomena-V2-sources.zip','Tiavina-Nomena-V2-sources.zip'),(ROOT/'review/affiche.png','Affiche.png')]:
   z.write(path,name)
 print('Complete delivery ZIP ready.',flush=True)

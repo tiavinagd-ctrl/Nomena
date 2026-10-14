@@ -8,12 +8,12 @@ L'archive contient le film de 50 secondes en 4K (3840 × 2160) et en Full HD (19
 
 Le [projet modifiable](videos/digitalsub-commercial/README.md) contient les scènes, les ressources, la musique et les commandes de rendu.
 
-## Tiavina Nomena — Créer avec impact
+## Tiavina Nomena — Créer avec impact · V2
 
-Publicité personnelle verticale de 30 secondes : portrait adapté en tenue jeune, typographies monumentales, voix fournie et musique originale.
+Publicité personnelle verticale de 30 secondes : portrait en tenue jeune, PC animé, Blender, DaVinci Resolve, créations visuelles, voix fournie et musique originale.
 
-- [Télécharger toute la livraison ZIP](https://github.com/tiavinagd-ctrl/Nomena/raw/refs/heads/codex/tiavina-impact/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-livraison.zip)
-- [Vidéo verticale MP4](https://github.com/tiavinagd-ctrl/Nomena/raw/refs/heads/codex/tiavina-impact/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-30s-Vertical.mp4)
+- [Télécharger toute la livraison ZIP](https://github.com/tiavinagd-ctrl/Nomena/raw/refs/heads/codex/tiavina-impact-v2/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-V2-livraison.zip)
+- [Vidéo verticale MP4](https://github.com/tiavinagd-ctrl/Nomena/raw/refs/heads/codex/tiavina-impact-v2/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-V2-30s-Vertical.mp4)
 - [Storyboard technique complet](videos/tiavina-nomena-impact/STORYBOARD.md)
-- [Sources modifiables ZIP](https://github.com/tiavinagd-ctrl/Nomena/raw/refs/heads/codex/tiavina-impact/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-sources.zip)
+- [Sources modifiables ZIP](https://github.com/tiavinagd-ctrl/Nomena/raw/refs/heads/codex/tiavina-impact-v2/videos/tiavina-nomena-impact/renders/Tiavina-Nomena-V2-sources.zip)
 - [Installation et état du projet](videos/tiavina-nomena-impact/README.md)

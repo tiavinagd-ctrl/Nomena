@@ -1,13 +1,13 @@
-# Tiavina Nomena — Créer avec impact
+# Tiavina Nomena — Créer avec impact · V2
 
 Publicité personnelle verticale : 1080 × 1920, 30 i/s, 30 secondes. Projet React / Remotion 4.0.535.
 
 ## Livrables
 
 - `STORYBOARD.md` : les sept scènes détaillées, placements typographiques en pixels, masques, mouvements, transitions, grille musicale et voix.
-- `renders/Tiavina-Nomena-30s-Vertical.mp4` : première version avec le portrait adapté en tenue jeune.
-- `renders/Tiavina-Nomena-sources.zip` : sources modifiables, ressources et storyboard.
-- `renders/Tiavina-Nomena-livraison.zip` : vidéo, affiche, storyboard et archive des sources réunis.
+- `renders/Tiavina-Nomena-V2-30s-Vertical.mp4` : version enrichie : portrait, PC animé, Blender, DaVinci Resolve et projets visuels.
+- `renders/Tiavina-Nomena-V2-sources.zip` : sources modifiables, ressources et storyboard.
+- `renders/Tiavina-Nomena-V2-livraison.zip` : vidéo, affiche, storyboard et archive des sources réunis.
 - `review/` : images et contrôles techniques du film.
 
 ## Direction artistique et portrait
@@ -44,3 +44,11 @@ python3 scripts/prepare_audio.py
 ```
 
 Le brief client original est conservé dans `BRIEF-CLIENT.md`. `STORYBOARD.md` intègre sa correction concernant la tenue.
+
+## Nouvelles séquences V2
+
+Le portrait apparaît pendant 12 secondes (0–3, 7–11 et 25–30). Les 18 secondes restantes montrent un ordinateur de bureau animé en perspective, une surface 3D paramétrique, des interfaces de Blender et DaVinci Resolve, puis des compositions produit et paysage.
+
+Les interfaces sont dessinées pour le film : elles ne sont pas des captures des logiciels, et aucun projet `.blend` ou `.drp` n'est prétendument livré. Le modèle paramétrique visible tourne réellement par projection SVG calculée à chaque image. La timeline, le curseur, les images clés, les courbes et les roues colorimétriques sont animés.
+
+Les deux images `public/product-project.png` et `public/coast-project.png` ont été générées pour illustrer des concepts créatifs de cette publicité. Elles ne sont pas présentées comme des réalisations client existantes. Aucun logo de produit ou partenaire n'a été ajouté. La vidéo V1 reste disponible sur la branche Git `codex/tiavina-impact`.
